@@ -1,0 +1,189 @@
+button:hover {
+	 transform: scale(1.04);
+}
+html{
+	scroll-behavior: smooth;
+}
+ * {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	 font-family: Poppins, 'sans-serif';
+}
+ .welcomePage {
+	 height: 100vh;
+	 width: 100%;
+	 background: url('aset bg.jpg') no-repeat center;
+	 background-size: cover;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 position: relative;
+}
+ .welcomePage .overlay {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(154, 0, 157, 0.30015756302521013) 75%);
+}
+ .welcomePage h1 {
+	 color: white;
+	 font-size: 6vw;
+	 font-weight: 500;
+	 line-height: 1.2em;
+	 letter-spacing: 0.05em;
+	 z-index: 1;
+}
+ .welcomePage h4 {
+	 color: white;
+	 font-size: 2.4vw;
+	 font-weight: 300;
+	 letter-spacing: 0.012em;
+	 z-index: 1;
+}
+ .welcomePage a {
+	 text-decoration: none;
+	 width: 20%;
+	 text-align: center;
+	 height: 2.5em;
+	 line-height: 2.5em;
+	 border-radius: 100px;
+	 border: none;
+	 background-color: #0022ed;
+	 color: white;
+	 font-weight: 400;
+	 font-size: 1.8em;
+	 cursor: pointer;
+	 margin-top: 2.4em;
+	 z-index: 1;
+}
+.welcomePage a:hover{
+	transform: scale(1.04);
+}
+ .mainPage {
+	 background-color: #000;
+	 color: white;
+	 height: 100vh;
+	 width: 100%;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 padding: 2% 2% 0 2%;
+}
+ .mainPage .encryptSection {
+	 border-right: 1px solid white;
+	 width: 50%;
+	 display: flex;
+	 align-items: center;
+	 flex-direction: column;
+}
+ .mainPage .encryptSection h1 {
+	 text-align: center;
+}
+ .mainPage .encryptSection p {
+	 width: 75%;
+	 font-weight: 300;
+	 text-align: center;
+}
+ .mainPage .encryptSection form {
+	 width: 75%;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+}
+.mainPage .encryptSection input {
+	 height: 10%;
+	 width: 75%;
+	 border-radius: 100px;
+	 margin-top: 2%;
+	 padding: 5%;
+	 display: block;
+	 border: none;
+}
+ .mainPage .encryptSection button {
+	 border: none;
+	 background-color: #0022ed;
+	 width: 25%;
+	 height: 20%;
+	 text-align: center;
+	 border-radius: 100px;
+	 color: white;
+	 margin-top: 5%;
+	 cursor: pointer;
+}
+ .mainPage .encryptSection .output {
+	 height: 25%;
+	 width: 75%;
+	 background-color: white;
+	 border-radius: 35px;
+	 margin-top: 5%;
+	 color: black;
+}
+ .mainPage .decryptSection {
+	 border-left: 1px solid white;
+	 width: 50%;
+	 display: flex;
+	 align-items: center;
+	 flex-direction: column;
+}
+ .mainPage .decryptSection h1 {
+	 text-align: center;
+}
+ .mainPage .decryptSection p {
+	 width: 75%;
+	 font-weight: 300;
+	 text-align: center;
+}
+ .mainPage .decryptSection form {
+	 width: 75%;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+}
+.mainPage .decryptSection input {
+	 height: 10%;
+	 width: 75%;
+	 border-radius: 100px;
+	 margin-top: 2%;
+	 padding: 5%;
+	 display: block;
+	 border: none;
+}
+ .mainPage .decryptSection button {
+	 border: none;
+	 background-color: #0022ed;
+	 width: 25%;
+	 height: 20%;
+	 text-align: center;
+	 border-radius: 100px;
+	 color: white;
+	 margin-top: 5%;
+	 cursor: pointer;
+}
+ .mainPage .decryptSection .output {
+	 height: 25%;
+	 width: 75%;
+	 background-color: white;
+	 border-radius: 35px;
+	 margin-top: 5%;
+	 color: black;
+}
+ .footer {
+	 background-color: #000;
+	 color: white;
+	 width: 100%;
+	 height: 4vh;
+}
+ .footer p {
+	 font-size: 0.8em;
+	 line-height: 4vh;
+	 text-align: center;
+	 letter-spacing: 0.2em;
+	 font-weight: 100;
+}
+ 
